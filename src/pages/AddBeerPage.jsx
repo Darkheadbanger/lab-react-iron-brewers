@@ -28,6 +28,8 @@ function AddBeerPage() {
   // 2. Use axios to make a POST request to the Beers API.
   // 3. Once the beer is created, navigate the user to the page showing the list of all beers.
 
+  
+
 
 
   // Structure and the content of the page showing the form for adding a new beer. You can leave this as it is.
