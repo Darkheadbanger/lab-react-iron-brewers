@@ -18,7 +18,7 @@ function AllBeersPage() {
       .get(apiBeers)
       .then(({ data }) => {
         console.log("Data received:", data);
-        setBeers(data);
+        setBeers(data.reverse());
       })
       .catch((err) => {
         console.error("Error:", err);
